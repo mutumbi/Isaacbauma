@@ -1,0 +1,246 @@
+body 
+{
+    background-color: rgb(104, 137, 214);
+}
+#header{
+border: 2px solid black;
+height: 150px;
+width: 1200px;
+margin: auto;
+background-image: url("NOA.jpg");
+}
+#Menu{
+    height: 40px;
+    }
+#Corps{
+        height: 800px;
+        }
+#Footer{
+            height: 400px;
+            background-color:black;
+            }
+    
+            @charset "utf-8";
+            /* CSS Document */
+            
+            
+            body {
+                
+            
+            /* for pull-down menu to work in IE6*/
+            behavior:url("csshover2.htc");
+            
+            }
+            
+            /* pull-down mainmenu css */
+            .mainmenu{
+                float: left;
+                width: 100%;
+                padding: 0;
+            }
+            .mainmenu ul {
+                float: left;
+                width: 100%;
+                list-style: none;
+                line-height: 1;
+                color:#FFFF00;
+                background: hsl(240, 100%, 25%);
+                padding: 0;
+                border: solid #A0A0A4;
+                border-width: 1px 0;
+                margin: 0 0 1em 0;
+            }
+            
+            .mainmenu a, .mainmenu a:visited {
+                display: block;
+            font-family:Arial, Helvetica, sans-serif;font-size:0.8em;font-weight:bold;font-style:normal;text-decoration:underline;
+                color: #FFFF00;
+                text-decoration: none;
+                padding: 1em 1em;
+            }
+            .mainmenu ul ul a{
+                width:100%;
+                height:100%;
+            }
+            .mainmenu ul a{
+                width:1%;
+            }
+            
+            
+            .mainmenu li  {
+                float: left;
+                margin:0;
+                padding:0;
+            }
+            
+            .mainmenu ul li {float:left; position:relative;  }
+            .mainmenu ul li a {white-space:nowrap;}
+                
+            .mainmenu li ul {
+                position: absolute;
+                left: -999em;
+                height: auto;
+                width:15em;	
+                
+                background: burlywood;
+                font-weight: normal;
+                border-width: 1px;
+                margin: 0;
+            }
+            
+            .mainmenu li li {
+                width:15em ;
+            }
+            
+            .mainmenu li li a{
+                width:13em ;
+            }
+            
+            .mainmenu li ul  {
+                margin: 0;
+            }
+            .mainmenu li ul ul {
+                margin: -2.8em 0 0 13.5em;
+            }
+            .ul_ch, 
+            .mainmenu li:hover ul ul,
+            .mainmenu li li:hover ul ul,
+            .mainmenu li li li:hover ul ul,
+            .mainmenu li li li li:hover ul ul,
+            .mainmenu li li li li li:hover ul ul
+            {
+                left: -999em;
+            }
+            .mainmenu li:hover ul,
+            .mainmenu li li:hover ul,
+            .mainmenu li li li:hover ul,
+            .mainmenu li li li li:hover ul,
+            .mainmenu li li li li li:hover ul
+            {
+                left: auto;
+            }
+            .mainmenu li:hover>ul.ul_ch   
+            {
+                left: auto;
+            }
+            
+            .mainmenu li:hover{
+                background: #FF0000;
+            }
+            
+            .mainmenu li:hover a,.mainmenu li:hover a:visited,.mainmenu li:hover a:hover,.mainmenu li a:hover{
+                color:#FFFF00;
+            }
+            .mainmenu li:hover li a, .mainmenu li li:hover li a, 
+            .mainmenu li li li:hover li a, .mainmenu li li li li:hover li a,
+            .mainmenu li:hover li a:visited, .mainmenu li li:hover li a:visited, 
+            .mainmenu li li li:hover li a:visited, .mainmenu li li li li:hover li a:visited
+            {
+                color:#FFFF00;
+            }
+            .mainmenu li li:hover, .mainmenu li li li:hover, 
+            .mainmenu li li li li:hover , .mainmenu li li li li li:hover , .mainmenu li li li li li li:hover 
+            {
+                background: #B90000;
+                z-index:9999;
+            }
+            .mainmenu li li:hover a,.mainmenu li li li:hover a, 
+            .mainmenu li li li li:hover a, .mainmenu li li li li li:hover a
+            {
+                color: #FFFF00; 
+            }
+            
+            .mainmenu ul ul a, .mainmenu ul ul a:visited,
+            .mainmenu li li a, .mainmenu li li a:visited
+            {
+                color: #FFFF00;
+            }
+            .mainmenu ul ul a:hover,
+            .mainmenu li:hover li:hover a,.mainmenu li:hover li:hover a:visited ,
+            .mainmenu li:hover li:hover li:hover a,.mainmenu li:hover li:hover li:hover a:visited,
+            .mainmenu li:hover li:hover li:hover li:hover a,.mainmenu li:hover li:hover li:hover li:hover a:visited ,
+            .mainmenu li:hover li:hover li:hover li:hover li:hover a,.mainmenu li:hover li:hover li:hover li:hover li:hover a:visited,
+            .mainmenu li:hover li:hover li:hover li:hover li:hover li:hover a,.mainmenu li:hover li:hover li:hover li:hover li:hover li:hover a:visited{
+                color: #FFFF00;
+            }
+            .mainmenu li:hover li:hover li a,.mainmenu li:hover li:hover li a:visited ,
+            .mainmenu li:hover li:hover li:hover li a,.mainmenu li:hover li:hover li:hover li a:visited,
+            .mainmenu li:hover li:hover li:hover li:hover li a,.mainmenu li:hover li:hover li:hover li:hover li a:visited,
+            .mainmenu li:hover li:hover li:hover li:hover li:hover li a,.mainmenu li:hover li:hover li:hover li:hover li:hover li a:visited{
+                color: #FFFF00;
+            }
+            
+            
+            /* end of mainmenu css */
+            
+            #Haut{
+                width: 1327px;
+                height: 400px;
+            }
+            #Hautg{
+                width: 870px;
+                height: 400px;
+            }
+            #Hautd{
+                width: 455px;
+                height: 400px;
+                margin-left: 885px;
+                margin-top: -404px;
+                background-color: white;
+            }
+            .titre{
+                color: red;
+                text-align: center;
+                font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                font-size: 30px;
+                font-weight: bold;
+            }
+            .titre1{
+                color: white;
+                font-family:Georgia, 'Times New Roman', Times, serif;
+                font-size: 30px;
+                font-weight: bold;
+                margin-top: 15px;
+                border-radius: 10px 10px 10px 10px;
+            }
+            #Basg{
+                width: 580px;
+                height: 380px;
+                margin-top: 8px;
+            }
+            #Basm{
+                width: 320px;
+                height: 380px;
+                margin-top:-382px;
+                margin-left: 600px;
+            }
+            #Basdh{
+                width: 400px;
+                height: 185px;
+                margin-top:-387px;
+                margin-left: 940px;
+            }
+            #Basdb{
+                width: 400px;
+                height: 185px;
+                margin-top:5px;
+                margin-left: 940px;
+            }
+            .act1{
+                float: left;
+            }
+            .pied{
+                display: inline-block;
+                width: 322px;
+                color: aliceblue;
+                font-size: 25px;
+            }
+            .is{
+                margin-left: 600px;
+                width: 322px;
+                margin-top: 70px;
+                
+            }
+            .i{
+                text-align: center;               
+            }
